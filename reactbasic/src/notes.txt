@@ -1,0 +1,93 @@
+Things you should know?
+
+1. variables
+2. function expression, declaration, (arrow function)
+3. map, filter, reduce - array methods
+4. rest and spread operator (...)
+5. destructuring - array or object
+6. callback, promises and async-await
+7. Object-oriented programming
+8. closures
+9. Modules (import and export) - ES7
+
+
+
+Make a habit of reading articles as much as possible; it will make you a better developer and get to know the different updates and features of different languages.
+
+React was created by Facebook(Meta) in 2013, and 2015 it was made public for users (open-sourced).
+
+
+Framework and Library??? (Interview)
+Angular --> Framework --> It will give you the structure
+Vue.js --> Framework 
+React.js --> Library --> You can create a product using the code kept in the library.
+
+React is library primarily used to create User Interfaces, it was developed by Facebook. It allows us to create Single page application.
+
+SPA allows the webpage to update the content ever is necessary avoiding unnecessary reload
+MPA will load the whole webpage whenever we click on something.
+
+
+React :
+1. React DOM - Web Application
+2. React Native - Mobile Application or Flutter 
+
+
+Nodejs provides the runtime environment where we can write JavaScript code outside of the browser.
+NPM - Node Package Manager - Largest Registry crore of files which can be 
+
+
+Why need to learn to react?
+1. Component-based architecture.
+2. SPA
+3. Easy to learn
+4. Fast and Efficient due to Virtual DOM
+5. Great community support
+
+
+
+2 ways to create react project :
+1. npx create-react-app firstProj
+2. npm create vite@latest
+
+node package executor
+node package manager
+
+
+
+22nd June Topics React :
+
+1. Extension
+2. JSX
+3. Virtual DOM
+4. Component (Class and Functional)
+5. Export
+
+
+JSX - javascript extension or javascript XML
+
+JSX code that we write in react project is not understood by browser, Babel converts JSX code to JS code(es5)
+
+Babel - Transpiler that converts jsx code to javascript code...
+Webpack- Create the bundle of react project
+
+SPA - creating multiple components and merging it to make a whole webpage..
+
+
+React is having a feature of Virtual DOM, 
+
+DOM - Document Object Model 
+Virtual DOM 
+
+React allows us to create SPA because of Virtual DOM, because updating the real DOM after every change in the component will effect the performance of the web application.
+
+Virtual DOM - at every point of time react is having two virtual dom, new vDOM and old vDOM, when any state anychanges in the component, new virtual dom gets created and it is compared with old vdom, comparison is called is 'diffing'... once comparison is done and virtual dom gets to know what changes has been it will inform real dom about the change and send data in the form of 'batch', and it gets updated on the real dom, eventually it will update it on the screen, changes made to the real dom through the vdom is called as reconciliation .....
+
+
+
+There are two types of export and import : 1. Named 2. Default
+
+1. Named export : you can export multiple file using named export, when importing you must use the same names.
+2. Default :  A file or component can have only one Default export. this is useful when you want to export a single main thing from the module
+
+
