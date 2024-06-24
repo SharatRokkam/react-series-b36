@@ -1,0 +1,23 @@
+//Components : code that can be created and reused multiple time in a project, we can use multiple chunks of components to create a whole web page 
+
+There are two types of Components :
+1. Functional Component
+2.  Class Component
+
+Class Component in React is one of the ways to define components that have their own state and lifecycle methods.
+But Functional Component with hooks are more commonly used in Modern React development. 
+
+// Props(Properties) and State 
+Props(immutable) are read only inputs to a react component that are passed down from parent to child component, Props can be any type of data: string, number, objects, arrays and function....
+
+State are built in object used to manage data that changes over time with a component. State is local to the component it is defined, can modified using useState hook in function component, in class we setState....
+
+
+Feature                           Props                         State
+Mutability                        immutable                     Mutable
+Scope                            Passed from parent to child    Local to the component
+Usage                            passing data                   Managing dynamic data
+Updates                          From Parent Component          Within the component itself
+
+
+Lifecycle Methods : ComponentDidMount, ComponentDidUpdate, ComponentWillUnMount
