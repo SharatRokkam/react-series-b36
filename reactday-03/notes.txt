@@ -1,0 +1,31 @@
+//lifecycle Methods
+
+Before the introduction of hooks in functional component, there were two main reasons to use class components first was the setState function and second was lifecycle methods with state of the component
+
+Human - take birth - grow - die
+Lifecycle - mounting - updating - unmounting
+
+
+React components can be created using either class components or functional components. Each type of component has its own lifecycle methods or hooks that control the component's behavior during its lifecycle (mounting, updating, and unmounting).
+
+Lifecycle Methods in Class Components
+Mounting: When an instance(example) of a component is being created and inserted into the DOM.
+
+1. constructor()
+2.componentDidMount()
+3. render()
+
+Updating: When a component is being re-rendered due to changes to its props or state.
+
+1. shouldComponentUpdate()
+2. componentDidUpdate()
+3. render()
+
+
+Unmounting: When a component is being removed from the DOM.(timer, network request)
+
+1. componentWillUnmount()
+
+Error Handling: To catch errors during rendering, in lifecycle methods, and in constructors of the whole tree.
+
+2. componentDidCatch()
