@@ -1,0 +1,6 @@
+There are three ways of add css to your react project 
+1. External 
+2. Module
+3. Inline
+
+How to add Bootstrap to your project!!
