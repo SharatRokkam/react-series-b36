@@ -1,0 +1,18 @@
+// Reusable Component 
+Modularity: Component are modular allowing easy reuse across different parts of an app
+Consistency: Reusing ensures UI Consistency and avoid mistakes
+Efficiency : Avoiding duplication of code
+Maintainability : changes made to reused component reflect everywhere it is used.
+
+//Mini project with bootstrap
+
+// Map, filter and Reduce
+
+// Conditional Rendering - if else, ternary operator, && operator
+--> Display content based on certain conditions...
+--> Allows for dynamic user interface 
+
+Methods: 
+1. if else statement :choose between two blocks of content 
+2. ternary operator : quick way to choose the between two options
+3. Logical operator : useful of rendering content when the condition is true
