@@ -1,0 +1,73 @@
+React Revision : 
+React is js library for creating UI
+Why React only?
+Code Reusability
+SPA
+JSX and Virtual DOM
+Webpack and Babel
+
+Class Component
+Lifecycle Method
+Export and Import
+Functional Component 
+Map filter and Reduce
+Conditional Rendering - if else, ternary and logical && operator 
+props and State
+CSS Styling and Bootstrap
+
+----------------------------------------------------------------------------------------------------
+
+Hooks : Hooks are the functions that let you use state and other react features in Functional Component, it was introduced in 16.8, it needs to be written in CamelCase..
+useState, useEffect, useReducer, useContext, useMemo
+
+Class Component - Stateful component(setState)
+functional Component - Stateless component
+
+Lifecycle Methods vs Hooks
+
+Why use Hooks?
+- Simplify Code
+- Make components reusable
+- Reduce code Complexity of managing state and Lifecycle methods.
+
+Hooks : useState, useEffect, useContext, useMemo, useRef and Custom Hooks 
+
+Class - state and setState
+
+useState : is hook that lets you add state to functional Component.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Events in React : 
+Events in React are actions or occurrences that happen in your application that you can respond to. They can be things like user actions (clicks, key presses) or system-generated events (page loads, network responses). React has a built-in system for handling these events that is similar to how events are handled in regular HTML and JavaScript but with a few key differences to make them more consistent and easier to use in the context of a React application.
+
+How Events Work in React?
+Synthetic Events: React wraps native browser events in a wrapper called "SyntheticEvent". This ensures that events behave consistently across different browsers.
+Event Handling: Event handlers in React are written as camelCase (e.g., onClick instead of onclick). You pass the event handler as a function.

@@ -2,7 +2,7 @@ const AddTodo = () => {
   return (
     <>
       <div className="container">
-        <div className="row">
+        <div className="row ">
           <div className="col-6">
             <input type="text" placeholder="enter your task" />
           </div>
