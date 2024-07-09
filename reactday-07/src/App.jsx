@@ -10,6 +10,7 @@ const App = () => {
 
 
   const increment = () =>{
+    
     setCount(prevCount => prevCount + 1)
   }
   const decrement = () =>{

@@ -1,0 +1,3 @@
+Props Drilling and Context API 
+
+Prop drilling is the process of passing down data or state through multiple layers of a component hierarchy. By the way, it refers to the practice of passing data from a parent component to its children and then from the children to their own children and so on, until the data reaches the desired component that needs it..

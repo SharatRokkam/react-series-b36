@@ -1,0 +1,14 @@
+1. Suppose you have a number 121 you have to check if it is palindrome or not..
+madam -> madam, anna - anna, kick - kcik
+
+
+2. const array1 = ['tomato', 'potato', 'ginger']
+add 'cabbage' to the first index and 'brinjal' to the last of the array...
+
+3. const student = {
+    name : 'Mahesh Babu',
+    age : 48,
+    isActor : true, 
+}
+
+you have to add a property for 'industry : tollywood', to this object...

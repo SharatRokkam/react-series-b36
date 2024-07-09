@@ -1,0 +1,15 @@
+The Context API in React provides a way to share values between components without having to pass props through every level of the component tree. It's designed to solve the problem of "prop drilling," where you have to pass data through multiple layers of components that don't need it, just so that a deeply nested component can access it.
+
+Context
+Provider
+Consumer
+
+
+Props Drilling - Small Project
+State Management Tools..!
+Interview Question(100%)
+Context API - Intermediate Project(React)
+Redux - Major Project(Not a part of React)
+
+
+Nested Routing : React Router allows you to render nested routes within a parent route.

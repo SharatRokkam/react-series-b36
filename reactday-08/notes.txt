@@ -1,0 +1,18 @@
+Hooks : useState, useRef, useEffect 
+
+useEffect => powerful tool for managing side effect in the functional components. It combines the lifecycle methods like 'componentDidMount', 'componentDidUpdate', 'componentWillUnMount'
+
+Use Cases :
+1. Fetching Data
+2. Handling Timers
+3. Update the document title
+4. Subscribing to events
+5. Running Cleanup code 
+
+Syntax :
+useEffect(() => {
+    code to run on component mount an update
+    return () => {
+      clean up code to run on component unmount
+    };
+  }, [dependencies]);
