@@ -1,0 +1,12 @@
+useReducer Hook : --------------------------------------------------
+useReducer hook is similar to useState, but instead of providing state and setter function. It provides state and dispatch function
+It accepts two arguments :
+1. reducer function 2. initial state
+
+and returns the "current state" and "dispatch method"...
+
+Difference and UseCase : -----------------------------------------
+
+'useState' is best suited for simple state updates, such as toggling a boolean value, updating a single input field, or managing simple counters.
+
+'useReducer' is more appropriate for more complex state management scenarios, such as managing form inputs, handling complex state transitions, or when the state logic involves multiple related values.
