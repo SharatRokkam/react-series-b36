@@ -1,0 +1,52 @@
+What is React primarily used for?
+
+A) Building mobile applications
+B) Server-side scripting
+C) Building user interfaces - Correct
+D) Database management
+
+
+Which of the following is a correct syntax for importing React in a JavaScript file?
+
+A) import React from 'react';
+B) import react from 'React';
+C) require('React');
+D) import 'React';
+
+
+What is a key in React and why is it important?
+
+A) It is a special string attribute used to identify unique elements in the DOM.
+B) It is a property used to access state.
+C) It is used to bind event handlers.
+D) It is used to connect React with the backend.
+
+
+What does JSX stand for?
+
+A) JavaScript XML
+B) JavaScript Syntax Extension
+C) JavaScript Extra
+D) None of the above
+
+
+How do you create a component in React?
+
+A) By using the function keyword.
+B) By extending React.Component or using a function.
+C) By using the class keyword.
+D) By using React.createComponent.
+
+
+Create a simple React component called Greeting that displays a greeting message passed as a prop.
+
+Create a small React application that includes routing. It should have two routes: /home and /about, each displaying different content.
+
+Explain and implement the use of the useEffect hook to fetch data from an API when a component mounts.
+
+Write a React component that accepts an array of items as a prop and displays them in a table format. Include columns for item name and price.
+
+Create a React component that uses the useContext hook to manage and display a theme (light or dark) across multiple components.
+
+
+Write a react component that uses state to toggle between ON an OFF when button is clicked....

@@ -5,8 +5,8 @@ const TodoItem = ({ todoItems }) => {
   return (
     <>
       <div className="item-container">
-        {todoItems.map((item) => (
-          <AddItem todoDate={item.date} todoName={item.name} />
+        {todoItems.map((item, index) => (
+          <AddItem key={index} todoDate={item.date} todoName={item.name} />
         ))}
       </div>
     </>

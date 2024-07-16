@@ -2,19 +2,22 @@ import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import AppName from "./Components/AppName";
 import AddTodo from "./Components/AddTodo";
 import TodoItem from "./Components/TodoItem";
+import { useState } from "react";
 
 function App() {
-  const todoItems = [
-    { name: "Learn React", date: "23/2/22" },
-    { name: "Learn Javascript", date: "23/2/22" },
-    { name: "Go to swimming", date: "23/2/22" },
-    { name: "Play basketball", date: "23/2/22" },
-  ];
+  const [todoItems, setTodoItems] = useState([]);
+
+  const handleNewItem = (itemName, itemDueDate) => {
+    console.log(`newItems add  ${itemName} and ${itemDueDate}`);
+    const newTodoItems = [...todoItems, { name: itemName, date: itemDueDate }];
+    setTodoItems(newTodoItems);
+  };
+
   return (
     <>
       <center className="container">
         <AppName />
-        <AddTodo />
+        <AddTodo onNewItem={handleNewItem} />
         <TodoItem todoItems={todoItems}></TodoItem>
       </center>
     </>

@@ -1,0 +1,14 @@
+HOC :  higher-order component is a function that takes a component and returns a new component.
+
+Where do we use it ?
+1. Code reuse or Sharing 
+2. State Management
+3. style module css
+4. Caching and Memoization
+
+
+Render.props, custom Hooks, React.Memo()
+useState, useEffect, useRef, useContext, useCallback, useMemo, useReducer, 
+useParams, useDispatch, 
+
+
