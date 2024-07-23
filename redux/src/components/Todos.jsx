@@ -10,13 +10,14 @@ const Todos = () => {
   return (
     <>
       <h2>Todos</h2>
-
-      {todos.map((todo) => {
-        <li key={todo.id}>
-          <div>{todo.text}</div>
-          <button onClick={() => dispatch(removeTodo(todo.id))}>Del</button>
-        </li>;
-      })}
+      <ul>
+        {todos.map((todo) => (
+          <li key={todo.id}>
+            <div>{todo.text}</div>
+            <button onClick={() => dispatch(removeTodo(todo.id))}>Del</button>
+          </li>
+        ))}
+      </ul>
     </>
   );
 };
